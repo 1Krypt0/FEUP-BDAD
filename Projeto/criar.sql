@@ -114,7 +114,7 @@ categoria TEXT NOT NULL
 
 DROP TABLE IF EXISTS cria;
 CREATE TABLE cria(
-nif INTEGER NOT NULL REFERENCES empregado(nif),
+nif INTEGER NOT NULL REFERENCES empregado_de_escritorio(nif),
 nr_projeto INTEGER NOT NULL REFERENCES projeto(nr_projeto),
 PRIMARY KEY(nif,nr_projeto)
 );
