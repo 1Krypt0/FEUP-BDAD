@@ -83,7 +83,7 @@ VALUES
 	("Eletricista"),
 	("Picheleiro"),
 	("Pintor");
-	
+
 
 INSERT INTO empregado(nif, nome, contacto, salario, habilitacao, idade, sexo)
 VALUES
