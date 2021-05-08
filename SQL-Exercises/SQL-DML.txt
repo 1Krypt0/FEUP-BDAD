@@ -1,0 +1,11 @@
+1: SELECT nr FROM aluno ;
+2: SELECT cod, Design FROM cadeira ;
+3: SELECT Nome FROM aluno INTERSECT SELECT Nome FROM prof;
+4: SELECT Nome FROM aluno EXCEPT SELECT Nome FROM prof ;
+5: SELECT Nome FROM aluno UNION SELECT Nome FROM prof ;
+6: SELECT Nome FROM aluno WHERE aluno.nr IN (SELECT nr FROM prova WHERE prova.cod='TS1') ;
+7:
+8: 
+9: SELECT DISTINCT nota FROM prova P1 WHERE NOT EXISTS (SELECT * FROM prova P2 WHERE P2.nota > P1.nota) ;
+10: SELECT AVG(nota) FROM prova P1 WHERE P1.cod='BD' ;
+11: SELECT COUNT(nr) FROM aluno ;
