@@ -92,37 +92,37 @@
 		relacional, e são possíveis obter as seguintes tabelas.
 		
 		\begin{itemize}
-			\item $Cliente(Nome, Morada, Contacto, NIF)$
-			\item $Projeto( N de Projeto, Orcamento, Prazo)$
-			\item $Obra(N de Obra, Data de Inicio, Custo, Area do Terreno, Area Interior,
-			Estado \rightarrow Estado, Rua \rightarrow Localizacao.Rua,\\ N de Porta
-			\rightarrow Localizacao.N de Porta, Codigo Postal \rightarrow
-			Localizacao.Codigo Postal)$
+			\item $Cliente(Nome,\ Morada,\ Contacto,\ NIF)$
+			\item $Projeto(N\ de\ Projeto,\ Orcamento,\ Prazo)$
+			\item $Obra(N\ de\ Obra,\ Data\ de\ Inicio,\ Custo,\ Area\ do\ Terreno,\ Area\
+			Interior,\ Estado \rightarrow Estado,\ Rua \rightarrow Localizacao.Rua,\ N\ de\ 
+			Porta \rightarrow Localizacao.N\ de\ Porta,\ Codigo\ Postal \rightarrow
+			Localizacao.Codigo\ Postal)$
 			\item $Estado(Designacao)$
-			\item $Material(Codigo, Designacao, Quantidade Disponivel, Custo, Guardado
+			\item $Material(Codigo,\ Designacao,\ Quantidade\ Disponivel,\ Custo,\ Guardado
 			\rightarrow Estaleiro)$
-			\item $Localizacao(Rua, N de Porta, Codigo Postal, Cidade)$
-			\item $Estaleiro(N de Estaleiro, Capacidade, Rua \rightarrow Localizacao.Rua, N
-			de Porta \rightarrow Localizacao.N de Porta, Codigo Postal \rightarrow
-			Localizacao.Codigo Postal)$
-			\item $Veiculo(Matricula, Consumo Medio, Data de Inspecao, Despesa, Tipo 
-			\rightarrow TipoDeVeiculo, Guardado \rightarrow Estaleiro)$
-			\item $TipoDeVeiculo(Categoria, Designacao)$
+			\item $Localizacao(Rua,\ N\ de\ Porta,\ Codigo\ Postal,\ Cidade)$
+			\item $Estaleiro(N\ de\ Estaleiro,\ Capacidade,\ Rua \rightarrow Localizacao.Rua,\
+			N\ de\ Porta \rightarrow Localizacao.N\ de\ Porta,\ Codigo\ Postal \rightarrow
+			Localizacao.Codigo\ Postal)$
+			\item $Veiculo(Matricula,\ Consumo\ Medio,\ Data\ de\ Inspecao,\ Despesa,\ Tipo 
+			\rightarrow TipoDeVeiculo,\ Guardado \rightarrow Estaleiro)$
+			\item $TipoDeVeiculo(Categoria,\ Designacao)$
 			\item $Especialidade(Designacao)$
-			\item $Empregado(Nome, NIF,  Contacto, Salario, Habilitacao, Idade, Sexo)$
-			\item $EmpregadoDeEscritorio(NIF \rightarrow Empregado, Estacao de Trabalho,
-			especialidade \rightarrow Especialidade)$
-			\item $EmpregadoDeObra(NIF \rightarrow Empregado, Anos de Experiencia,  Cargo,
-			especialidade \rightarrow Especialidade)$
-			\item $Maquinista(NIF \rightarrow Empregado, Categorias)$
-			\item $Cria(NIF \rightarrow EmpregadoDeEscritorio, N de Projeto \rightarrow
+			\item $Empregado(Nome,\ NIF,\  Contacto,\ Salario,\ Habilitacao,\ Idade,\ Sexo)$
+			\item $EmpregadoDeEscritorio(NIF \rightarrow Empregado,\ Estacao\ de\ Trabalho,\
+			Especialidade \rightarrow Especialidade)$
+			\item $EmpregadoDeObra(NIF \rightarrow Empregado,\ Anos\ de\ Experiencia,\ Cargo,\
+			Especialidade \rightarrow Especialidade)$
+			\item $Maquinista(NIF \rightarrow Empregado,\ Categorias)$
+			\item $Cria(NIF \rightarrow EmpregadoDeEscritorio,\ N\ de\ Projeto \rightarrow
 			Projeto)$
-			\item $MaterialAlocado(Codigo \rightarrow Material, N de Obra \rightarrow Obra)$
-			\item $VeiculoAlocado(Matricula \rightarrow Veiculo, N de Obra \rightarrow Obra)
-			$
-			\item $TrabalhaEm(NIF \rightarrow Empregado, N de Obra \rightarrow Obra)$
-			\item $Conduz(NIF \rightarrow Maquinista, Designacao \rightarrow TipoDeVeiculo)$
-			\item $ClienteObraProjeto(Cliente \rightarrow Cliente, Obra \rightarrow Obra,
+			\item $MaterialAlocado(Codigo\rightarrow Material,\ N\ de\ Obra \rightarrow Obra)$
+			\item $VeiculoAlocado(Matricula \rightarrow Veiculo,\ N\ de\ Obra \rightarrow
+			Obra)$
+			\item $TrabalhaEm(NIF \rightarrow Empregado,\ N\ de\ Obra \rightarrow Obra)$
+			\item $Conduz(NIF \rightarrow Maquinista,\ Designacao \rightarrow TipoDeVeiculo)$
+			\item $ClienteObraProjeto(Cliente \rightarrow Cliente,\ Obra \rightarrow Obra,\
 			Projeto  \rightarrow Projeto)$
 		\end{itemize}
 	
