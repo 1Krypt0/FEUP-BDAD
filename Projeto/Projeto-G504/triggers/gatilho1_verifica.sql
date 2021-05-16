@@ -1,3 +1,7 @@
+.mode columns
+.headers ON
+.nullvalue NULL
+
 SELECT nr_obra, custo
 FROM obra;
 
