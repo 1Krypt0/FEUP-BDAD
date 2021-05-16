@@ -131,7 +131,7 @@ VALUES
 	(211003392, 4);
 
 
-INSERT INTO material_alocado(codigo_material, nr_obra)
+INSERT INTO material_alocado(codigo, nr_obra)
 VALUES
 	(112, 1),
 	(112, 2),

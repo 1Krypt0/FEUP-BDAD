@@ -134,10 +134,10 @@ FOREIGN KEY(nr_projeto) REFERENCES projeto(nr_projeto)
 
 DROP TABLE IF EXISTS material_alocado;
 CREATE TABLE material_alocado(
-codigo_material INTEGER NOT NULL,
+codigo INTEGER NOT NULL,
 nr_obra INTEGER NOT NULL,
-PRIMARY KEY(codigo_material,nr_obra),
-FOREIGN KEY(codigo_material) REFERENCES material(codigo),
+PRIMARY KEY(codigo,nr_obra),
+FOREIGN KEY(codigo) REFERENCES material(codigo),
 FOREIGN KEY(nr_obra) REFERENCES obra(nr_obra)
 );
 
