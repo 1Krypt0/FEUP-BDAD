@@ -4,4 +4,4 @@
 
 SELECT nr_obra 
 FROM obra o
-WHERE o.data_inicio LIKE '%2022-04%';
+WHERE o.data_inicio LIKE '%2020-09%';
