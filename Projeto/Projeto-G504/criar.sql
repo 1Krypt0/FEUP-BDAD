@@ -50,7 +50,7 @@ CREATE TABLE localizacao(
 rua TEXT NOT NULL,
 nr_porta INTEGER NOT NULL CONSTRAINT nr_porta_valido CHECK(nr_porta > 0),
 cod_postal TEXT NOT NULL,
-cidade TEXT NOT NULL,
+cidade TEXT,
 PRIMARY KEY(rua,nr_porta,cod_postal)
 );
 

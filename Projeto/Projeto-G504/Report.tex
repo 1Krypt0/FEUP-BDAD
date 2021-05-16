@@ -347,7 +347,8 @@
 			\end{itemize}
 			\item Na relação Localização:
 			\begin{itemize}
-				\item Nenhum dos campos poderá ser NULL: Restrições NOT NULL.
+				\item Com a exceção da cidade, devido à implementação de gatilhos, 
+				nenhum dos campos poderá ser NULL: Restrições NOT NULL.
 				\item A rua, o código postal e o Nº de porta identificam um local: Restrição 
 				PRIMARY KEY.
 				\item O Nº de porta tem de ser positivo: Restrição CHECK.
@@ -473,7 +474,9 @@
 			\item Quando a relação entre o cliente e um dado projeto é cortada (por exemplo,
 			caso o cliente deixe de querer trabalhar com a empresa), o respetivo projeto
 			desaparece e a obra é atualizada para o estado "Interrompida".
-			\item 
+			\item Após a inserção de uma nova obra sem antes estar definida a localização,
+			esta é inserida automaticamente, sendo posteriormente apenas necessário 
+			especificar a cidade em que se encontra.
 		\end{enumerate}
 					
 		
