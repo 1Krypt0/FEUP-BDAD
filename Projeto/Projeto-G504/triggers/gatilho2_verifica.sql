@@ -2,7 +2,7 @@
 .headers ON
 .nullvalue NULL
 
-SELECT * FROM cliente;
+SELECT * FROM cliente WHERE nif = 239143555;
 SELECT * FROM projeto;
 SELECT * FROM cria;
 SELECT nr_obra, estado FROM obra;
