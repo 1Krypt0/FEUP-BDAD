@@ -23,3 +23,5 @@
 \contentsline {paragraph}{}{12}{}%
 \contentsline {chapter}{\numberline {6}Adição de Gatilhos}{13}{}%
 \contentsline {paragraph}{}{13}{}%
+\contentsline {chapter}{\numberline {7}Conclusão}{14}{}%
+\contentsline {paragraph}{}{14}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.5)  18 MAY 2021 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.5)  18 MAY 2021 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,14 +209,6 @@ Package pdftex.def Info: ./images//UML-Revisto.png  used on input line 86.
 (pdftex.def)             Requested size: 568.59254pt x 287.23221pt.
  [4 <./images//UML-Revisto.png>]
 Cap\'{\i }tulo 2.
-
-Overfull \hbox (69.80315pt too wide) in paragraph at lines 105--108
-[]$\OML/cmm/m/it/10 Estaleiro\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N de Estaleiro; 
- Capacidade;  Rua \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 Localizacao:Rua;  N de Po
-rta \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 Localizacao:N de Porta;  Codigo Postal 
-\OMS/cmsy/m/n/10 !
- []
-
 [5
 
 ]
@@ -282,6 +274,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 445--448
 Cap\'{\i }tulo 6.
 [13
 
+]
+Cap\'{\i }tulo 7.
+[14
+
 ] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
  2560 strings out of 479383
@@ -299,10 +295,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-
 dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Report.pdf (14 pages, 337660 bytes).
+Output written on Report.pdf (15 pages, 338487 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

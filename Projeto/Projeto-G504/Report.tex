@@ -4,7 +4,7 @@
 \usepackage[portuguese]{babel}
 \usepackage[margin=2cm]{geometry}
 
-\title{ \includegraphics[scale=0.3]{logo.png} \\ \textbf{Off Constructions - O uso de bases de dados aplicadas à construção civil}}
+\title{ \includegraphics[scale=0.3]{logo.png} \\ \textbf{OFF Constructions - O uso de bases de dados aplicadas à construção civil}}
 
 \author{Bases de Dados \\ Mestrado Integrado em Engenharia Informática e Computação \\ \\ G504 \\ Afonso Carvalho up201807481@fe.up.pt \\ Tiago Rodrigues up201907021@fe.up.pt \\ Tomás Fidalgo up201906743@fe.up.pt}
 
@@ -77,8 +77,8 @@
 		
 		\section{Novos requisitos}
 			
-			\paragraph{•}Após falar com o docente, foram propostas algumas ligeiras
-			alterações ao modelo apresentado, as quais podem ser vistas no seguinte diagrama
+			\paragraph{•}Após falar com o docente, foram propostas ligeiras
+			alterações ao modelo apresentado que podem ser vistas no seguinte diagrama
 			UML.
 			
 			\begin{figure}[hb!]
@@ -89,7 +89,7 @@
 	\chapter{Esquema Relacional}
 	
 		\paragraph{•}O diagrama UML revisto poderá ser decomposto no seguinte esquema
-		relacional, e são possíveis obter as seguintes tabelas.
+		relacional, e são possíveis obter as seguintes tabelas:
 		
 		\begin{itemize}
 			\item $Cliente(Nome,\ Morada,\ Contacto,\ NIF)$
@@ -103,8 +103,8 @@
 			\rightarrow Estaleiro)$
 			\item $Localizacao(Rua,\ N\ de\ Porta,\ Codigo\ Postal,\ Cidade)$
 			\item $Estaleiro(N\ de\ Estaleiro,\ Capacidade,\ Rua \rightarrow Localizacao.Rua,\
-			N\ de\ Porta \rightarrow Localizacao.N\ de\ Porta,\ Codigo\ Postal \rightarrow
-			Localizacao.Codigo\ Postal)$
+			N\ de\ Porta \rightarrow Localizacao.N\ de\ Porta, \\
+			\ Codigo\ Postal \rightarrow Localizacao.Codigo\ Postal)$
 			\item $Veiculo(Matricula,\ Consumo\ Medio,\ Data\ de\ Inspecao,\ Despesa,\ Tipo 
 			\rightarrow TipoDeVeiculo,\ Guardado \rightarrow Estaleiro)$
 			\item $TipoDeVeiculo(Categoria,\ Designacao)$
@@ -129,7 +129,7 @@
 	\chapter{Dependências Funcionais}
 	
 		\paragraph{}Fazendo uma pequena análise das dependências funcionais é possível
-		determinar as seguinte.
+		determinar as seguintes:
 		
 		\begin{itemize}
 			\item Na relação cliente:
@@ -240,7 +240,7 @@
 			\item Na relação EmpregadoDeEscritório:
 			\begin{itemize}
 				\item $NIF \rightarrow Estacao\ de\ trabalho,\ Especialidade$
-				\item $Especialidade \rightarrow Estacao de trabalho$
+				\item $Especialidade \rightarrow Estacao\ de\ trabalho$
 			\end{itemize}
 			
 			Visto que a Estação de trabalho não é um atributo primo, e a Especialidade não é 
@@ -460,11 +460,11 @@
 			onde este é determinado a partir dos respetivos salários.
 			\item Determinar o consumo total dos veículos alocados às obras iniciadas em 
 			Novembro.
-		\end{enumerate}		
+		\end{enumerate}
 	\chapter{Adição de Gatilhos}
 		
 		\paragraph{}De modo a tornar a base de dados mais resiliente a problemas, e a reforçar
-		alguns dos parâmetros dados anteriormente, os seguintes gatilhos foram adicionados.
+		alguns dos parâmetros dados anteriormente, os seguintes gatilhos foram adicionados:
 		
 		\begin{enumerate}
 			\item Quando o custo de um dado material é atualizado, a mudança reflete-se no 
@@ -478,5 +478,12 @@
 			especificar a cidade em que se encontra.
 		\end{enumerate}
 					
+	\chapter{Conclusão}
+	
+		\paragraph{}O uso de bases de dados no âmbito da construção civil apresenta-se como
+		uma necessidade para o sucesso de qualquer empresa da área. Com este 
+		projeto, foi possível implementar aquilo que seria esperado de uma base de dados 
+		simples para este setor. Foram criados dados para simulação que, apesar de pouco 
+		precisos, nos permitem assegurar a consistência e o bom funcionamento da mesma.
 		
 \end{document}
